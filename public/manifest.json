@@ -1,0 +1,28 @@
+{
+  "manifest_version": 1,
+  "version": "0.0.0",
+  "type": "APP",
+  "desktop": {
+    "js": ["js/desktop.js"],
+    "css": ["css/desktop.css"]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/kintone-config-helper.js", "js/config.js"],
+    "css": [],
+    "required_params": ["subtable"]
+  },
+  "name": {
+    "ja": "【ＳＤＰ開発中】条件付き集計プラグイン",
+    "en": "SUMIF Plug-in"
+  },
+  "description": {
+    "ja": "サブテーブルのフィールドで条件付き集計を行うためのプラグイン。",
+    "en": "conditional sum Plug-in"
+  },
+  "homepage_url": {
+    "ja": "https://cybozu.dev/ja/kintone/tips/development/plugins/development-plugin/",
+    "en": "https://developer.kintone.io/hc/en-us/articles/360008693973"
+  }
+}
